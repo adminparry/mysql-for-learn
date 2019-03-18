@@ -1,8 +1,0 @@
-
-INSTR(字段名, 字符串)
-
-这个函数返回字符串在某一个字段的内容中的位置, 没有找到字符串返回0，否则返回位置（从1开始）
-
-SELECT * FROM tblTopic ORDER BY INSTR( topicTitle, 'ha' ) > 0 DESC
-
-SELECT INSTR( topicTitle, 'ha' ) FROM tblTopic
