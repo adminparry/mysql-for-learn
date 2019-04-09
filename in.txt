@@ -1,5 +1,0 @@
-WHERE column IN (value1,value2,...)
-WHERE column NOT IN (value1,value2,...)
-
-
-SELECT * FROM user WHERE uid IN (2,3,5)
